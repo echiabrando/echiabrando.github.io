@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); /*buscar fuente google fonts*/
+*{
+    margin: 0%;
+    padding: 1px;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+body {
+    background-color: rgba(100, 99, 116, 0.87);
+
+}
+
+header {
+    background-color: rgba(17, 11, 102, 0.87);
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.Home {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 24px;
+    color: aliceblue;
+    margin: 2px;
+    font-weight: bold;
+    
+    
+}
+
+
+/* el .titulo es una clase distinguid en la hoja html para distinguir tipos de parrafos o lo que quieras*/
+/* . adelante para las clases , solo el articulo si es para otr cosa ej header, main, etc*/
+
+ul li a {
+    color: aliceblue;
+}
+
+.portada {
+    color: aliceblue;
+    width: 100%;
+    height: 380px;
+    background-image: url(../multimedia/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    
+}
+.portada h1{
+    font-size: 40px;
+    padding-left: 5px;
+}
+.portada h2{ 
+    font-size: 27px;
+    padding-left: 5px;
+}
+.portada h6{
+    font-size: 17px;
+    padding-left: 5px;
+    
+}
+form { 
+    font-size: 22px;
+    padding: 3px;
+}
+
+
+.juego {
+    width: 700px;
+    height: 300px;
+    border: solid 4px black;
+   margin: 10px;
+   padding: 10px;
+   
+   
+}
+
+
+
+.tarjeta {
+    width: 850px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 10px 15px 7px ;
+    
+}
+.tarjeta h3 {
+    color: rgb(0, 0, 7);
+    font-size: 27px;
+}
+.tarjeta img {
+    width: 100%;
+}
+.Plataformas{
+    
+    padding: 15px 21px 10px 15px ;
+    font-size: 22px;
+}
+footer img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.bloque{
+
+    justify-content: center;
+    align-content: flex-end;
+    border: solid 4px black;
+    margin: 10px;
+   padding: 10px;   
+   
+}
+
+.bloque ul {
+   
+    display: flex;
+    list-style: none;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+/*  Pestaña Juegos/Games */
+
+.games{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 1462px){
+    .games{
+        grid-template-columns: 100%;
+    }
+}
