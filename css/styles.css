@@ -117,14 +117,15 @@ footer img {
 }
 
 .bloque ul {
-   
-    display: flex;
-    list-style: none;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 10px;      
+    list-style: none;
+    justify-content: center;   
 }
+
 
 /*  Pestaña Juegos/Games */
 
@@ -138,3 +139,13 @@ footer img {
         grid-template-columns: 100%;
     }
 }
+
+@media (max-width: 900px){
+    .tarjeta{
+        width: 100%;
+    }
+    .portada{
+        height: auto;
+    }
+}
+
