@@ -134,6 +134,13 @@ footer img {
     grid-template-columns: 50% 50%;
 }
 
+.juego img{
+    max-height: 80%;
+    display: flex;
+    justify-content: end;
+    
+}
+
 @media (max-width: 1462px){
     .games{
         grid-template-columns: 100%;
