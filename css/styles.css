@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); /*buscar fuente google fonts*/
 *{
     margin: 0%;
-    padding: 1px;
     font-family: 'Teko', sans-serif;
 }
 
@@ -12,25 +11,29 @@ body {
 
 }
 
-header {
-    background-color: rgba(17, 11, 102, 0.87);
-    height: 100%;
-    width: 100%;
-    
-}
 
 
 
 .Home {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     list-style: none;
-    font-size: 24px;
+    font-size: 36px;
     color: aliceblue;
-    margin: 2px;
     font-weight: bold;
-    
-    
+    padding: 2px 10px 10px 10px;
+    margin: 2px;        
+}
+.Home li{
+    padding: 5px;
+}
+
+.nav{
+    padding: 1px;
+    background-color: rgba(17, 11, 102, 0.87);
+    height: 88px;
+    width: 100%;    
+    flex-direction: row-reverse;
 }
 
 
@@ -65,9 +68,16 @@ ul li a {
 }
 form { 
     font-size: 22px;
-    padding: 3px;
+    padding: 3px 20px 10px 20px;
+    height: 800px ;
 }
-
+form label{
+    padding: 25px 20px 20px 0px;
+    
+}
+form button{
+    font-size: 27px;
+}
 
 .juego {
     width: 700px;
@@ -78,8 +88,6 @@ form {
    
    
 }
-
-
 
 .tarjeta {
     width: 850px;
@@ -109,7 +117,7 @@ footer img {
 .bloque{
 
     justify-content: center;
-    align-content: flex-end;
+    align-content: end;
     border: solid 4px black;
     margin: 10px;
    padding: 10px;   
@@ -134,6 +142,12 @@ footer img {
     grid-template-columns: 50% 50%;
 }
 
+.gameplays{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .juego img{
     max-height: 80%;
     display: flex;
@@ -145,6 +159,15 @@ footer img {
     .games{
         grid-template-columns: 100%;
     }
+    .bloque ul {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        gap: 5px;      
+        list-style: none;
+        justify-content: center;   
+    }
 }
 
 @media (max-width: 900px){
@@ -154,5 +177,28 @@ footer img {
     .portada{
         height: auto;
     }
+    footer img {
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    
 }
 
+@media (max-width: 768px){
+    .bloque{
+
+        justify-content: center;
+        align-content: flex-end;
+        border: solid 2px black;
+        margin: 2px;
+       padding: 2px;   
+       
+    }
+    
+
+}
+
+@media (max-width: 576px){
+    
+}
