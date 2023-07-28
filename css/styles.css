@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+
+.carousel-inner .carousel-item {
+    transition: none;
+}
 .nav{
     padding: 1px;
     background-color: rgba(17, 11, 102, 0.87);
@@ -86,7 +90,7 @@ form button{
 
 .juego {
     width: 600px;
-    height: 300px;
+    height: 350px;
     border: solid 4px black;
    margin: 10px;
    padding: 10px;
@@ -94,11 +98,6 @@ form button{
    
 }
 
-.MainBody{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-}
 
 .tarjeta {
     width: 850px;
