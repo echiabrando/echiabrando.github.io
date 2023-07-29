@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: rgba(100, 99, 116, 0.87);
+    background-color: rgba(0, 0, 0, 0.87);
 
 }
 
@@ -38,7 +38,7 @@ body {
 }
 .nav{
     padding: 1px;
-    background-color: rgba(17, 11, 102, 0.87);
+    background-color: rgba(92, 12, 38, 0.87);
     height: 95px;
     width: 100%;    
     flex-direction: row-reverse;
@@ -52,6 +52,8 @@ body {
 ul li a {
     color: aliceblue;
 }
+
+
 
 .portada {
     color: aliceblue;
@@ -139,7 +141,7 @@ footer img {
     justify-content: center;
     align-content: end;
     border: solid 4px black;
-    margin: 10px;
+    margin: 1px;
    padding: 10px;   
    
 }
@@ -173,6 +175,14 @@ footer img {
     display: flex;
     justify-content: end;
     
+}
+
+.features{
+    color: beige;
+}
+
+.pie p{
+    color: beige;
 }
 
 @media (max-width: 1255px){
