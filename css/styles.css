@@ -153,7 +153,8 @@ footer img {
     grid-template-rows: 50% 50%;
     gap: 10px;      
     list-style: none;
-    justify-content: center;   
+    justify-content: center;
+    text-decoration: none;   
 }
 
 
@@ -181,9 +182,12 @@ footer img {
     color: beige;
 }
 
-.pie p{
+.ig{
     color: beige;
+
 }
+
+
 
 @media (max-width: 1255px){
     .games{
