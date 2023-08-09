@@ -145,19 +145,16 @@ footer img {
    padding: 10px;   
    
 }
-footer a {
-    text-decoration: none;
-    color: beige;
-}
-.xd{
-    color: beige;
-    font-size: 18px;
 
-}
+.bloque ul {
 
-.pieses{
-    border: solid 2px black;
-    margin: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 10px;      
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;   
 }
 
 
@@ -182,6 +179,10 @@ footer a {
 }
 
 .features{
+    color: beige;
+}
+
+.ig{
     color: beige;
 
 }
