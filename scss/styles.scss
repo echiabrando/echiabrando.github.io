@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); /*buscar fuente google fonts*/
+*{
+    margin: 0%;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+
+
+.Home {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    font-size: 36px;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 2px 10px 10px 10px;
+    margin: 2px;        
+}
+.Home li{
+    padding: 17px;
+    
+}
+.Home li a{
+    text-decoration: none;
+}
+
+
+.carousel-inner .carousel-item {
+    transition: none;
+}
+.nav{
+    padding: 1px;
+    background-color: rgba(92, 12, 38, 0.87);
+    height: 95px;
+    width: 100%;    
+    flex-direction: row-reverse;
+    text-decoration:none;
+}
+
+
+/* el .titulo es una clase distinguid en la hoja html para distinguir tipos de parrafos o lo que quieras*/
+/* . adelante para las clases , solo el articulo si es para otr cosa ej header, main, etc*/
+
+ul li a {
+    color: aliceblue;
+}
+
+
+
+.portada {
+    color: aliceblue;
+    width: 100%;
+    height: 380px;
+    background-image: url(../multimedia/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    padding: 0px 0px 0px 0px;   
+}
+.portada h1{
+    font-size: 40px;
+    padding-left: 5px;
+    font-weight: bold;
+    
+}
+.portada h2{ 
+    font-size: 27px;
+    padding-left: 5px;
+}
+.portada h6{
+    font-size: 17px;
+    padding-left: 5px;
+}
+form { 
+    font-size: 22px;
+    padding: 3px 20px 10px 20px;
+    height: 800px ;
+}
+form label{
+    padding: 25px 20px 20px 0px;
+    
+}
+form button{
+    font-size: 27px;
+}
+
+.juego {
+    width: 600px;
+    height: 350px;
+    border: solid 4px black;
+   margin: 10px;
+   padding: 10px;
+   
+   
+}
+
+
+.tarjeta {
+    width: 850px;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 10px 15px 7px ;
+    text-decoration: none;
+    
+}
+.tarjeta2{
+    height: fit-content;
+}
+.tarjeta h3 {
+    color: rgb(0, 0, 7);
+    font-size: 27px;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: black;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+.Plataformas{
+    
+    padding: 15px 21px 10px 15px ;
+    font-size: 22px;
+}
+footer img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.bloque{
+
+    justify-content: center;
+    align-content: end;
+    border: solid 4px black;
+    margin: 1px;
+   padding: 10px;   
+   
+}
+
+.bloque ul {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 10px;      
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;   
+}
+
+
+/*  Pestaña Juegos/Games */
+
+.games{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.gameplays{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.juego img{
+    max-height: 80%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.features{
+    color: beige;
+}
+
+.ig{
+    color: beige;
+
+}
+
+
+
+@media (max-width: 1255px){
+    .games{
+        grid-template-columns: 100%;
+    }
+
+    .bloque ul {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        gap: 5px;      
+        list-style: none;
+        justify-content: center;   
+    }
+}
+
+@media (max-width: 900px){
+    .tarjeta{
+        width: 100%;
+    }
+    .portada{
+        height: auto;
+    }
+    footer img {
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+}
+
+@media (max-width: 768px){
+    .bloque{
+
+        justify-content: center;
+        align-content: flex-end;
+        border: solid 2px black;
+        margin: 2px;
+       padding: 2px;   
+       
+    }
+    
+
+}
+
+@media (max-width: 576px){
+    
+}
