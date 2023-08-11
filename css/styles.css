@@ -158,6 +158,11 @@ footer a {
     font-weight: bold;
     padding-left: 10px;
 
+
+}
+.GP{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .games{
@@ -165,7 +170,7 @@ footer a {
     grid-template-columns: 50% 50%;
 }
 .juego {
-    width: 600px;
+    width: 800px;
     height: 390px;
     border: solid 4px black;
    margin: 10px;
@@ -197,6 +202,7 @@ footer a {
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
 }
 
