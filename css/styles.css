@@ -96,8 +96,19 @@ form button{
     border: solid 4px black;
    margin: 10px;
    padding: 10px;
+   background-color: rgba(94, 22, 44, 0.082);  
    
-   
+}
+
+.juego h3{
+    margin: 2px;
+    color: white;
+    font-weight: bold;
+}
+.juego p{
+    margin: 2px;
+    color: white;
+    
 }
 
 
