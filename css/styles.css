@@ -90,27 +90,6 @@ form button{
     font-size: 27px;
 }
 
-.juego {
-    width: 600px;
-    height: 350px;
-    border: solid 4px black;
-   margin: 10px;
-   padding: 10px;
-   background-color: rgba(94, 22, 44, 0.082);  
-   
-}
-
-.juego h3{
-    margin: 2px;
-    color: white;
-    font-weight: bold;
-}
-.juego p{
-    margin: 2px;
-    color: white;
-    
-}
-
 
 .tarjeta {
     width: 850px;
@@ -173,24 +152,54 @@ footer a {
 
 
 /*  Pestaña Juegos/Games */
+.TitleGames{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
 
 .games{
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
-.gameplays{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+.juego {
+    width: 600px;
+    height: 390px;
+    border: solid 4px black;
+   margin: 10px;
+   padding: 10px;
+   background-color: rgba(94, 22, 44, 0.082);  
+   
 }
 
+.juego h3{
+    font-size: 22px;
+    margin: 1px;
+    color: white;
+    font-weight: bold;
+}
+.juego p{
+    font-size: 17px;
+    margin: 2px;
+    color: white;
+    
+}
 .juego img{
     max-height: 80%;
     display: flex;
     justify-content: end;
     
 }
+
+.gameplays{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 
 .features{
     color: beige;
